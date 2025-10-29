@@ -382,12 +382,12 @@ We welcome contributions! Please follow these steps:
 **GROUP 3 - Test Automation Engineers**
 
 | Name | GitHub |
-|------|------|--------|
-| Anuvrat Verma  | [@anuvratverma](https://github.com/anuvratverma) |
+|------|--------|
+| Anuvrat Verma | [@anuvratverma](https://github.com/anuvratverma) |
 | Mohammad Kaif Shaikh | [@mohammadkaif](https://github.com/mohammadkaif) |
 | Lavanya Donga | [@lavanyadonga](https://github.com/lavanyadonga) |
-| Suchismita Dutta  | [@suchismitadutta](https://github.com/suchismitadutta) |
-| Likhitha Yada  | [@likhithayada](https://github.com/likhithayada) |
+| Suchismita Dutta | [@suchismitadutta](https://github.com/suchismitadutta) |
+| Likhitha Yada | [@likhithayada](https://github.com/likhithayada) |
 | Sai Lakshmi Anupama Gopavarapu | [@sailakshmianupama](https://github.com/sailakshmianupama) |
 
 ---
@@ -408,7 +408,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**⭐ If you find this project helpful!**
+**⭐ I hope you find this project helpful**
 
 Made with ❤️ by GROUP 3
 
