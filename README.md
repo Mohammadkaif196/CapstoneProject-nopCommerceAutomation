@@ -393,7 +393,7 @@ We welcome contributions! Please follow these steps:
 | Name | GitHub |
 |------|--------|
 | Anuvrat Verma | [@anuvratverma](https://github.com/anuvratverma) |
-| Mohammad Kaif Shaikh | [@mohammadkaif](https://github.com/mohammadkaif) |
+| Mohammad Kaif Shaikh | [@mohammadkaif](https://github.com/Mohammadkaif196) |
 | Lavanya Donga | [@lavanyadonga](https://github.com/lavanyadonga) |
 | Suchismita Dutta | [@suchismitadutta](https://github.com/suchismitadutta) |
 | Likhitha Yada | [@likhithayada](https://github.com/likhithayada) |
