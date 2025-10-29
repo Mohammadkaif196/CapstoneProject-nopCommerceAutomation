@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.LoginPageTest">
+      <class name="MobileAutomation.WikipediaAppTests">
         <methods>
-          <include name="verifyLoginFromExcel"/>
-          <include name="setup"/>
+          <include name="verifyWikipediaLogoPresent"/>
+          <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- TestCases.LoginPageTest -->
+      </class> <!-- MobileAutomation.WikipediaAppTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
