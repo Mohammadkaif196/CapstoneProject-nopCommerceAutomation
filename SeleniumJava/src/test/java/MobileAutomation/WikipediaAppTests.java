@@ -24,9 +24,9 @@ public class WikipediaAppTests {
     private AppiumDriver driver;
     private WebDriverWait wait;
 
-    public static final String USERNAME = "shaikmohammadkai_oIRx2t";
-    public static final String ACCESS_KEY = "7qUySy27MoYizKHBMYyy";
-    public static final String APP_URL = "bs://1e620129a9df7b54f283ac45c0e94a520c43955d";
+    public static final String USERNAME = "your username";
+    public static final String ACCESS_KEY = "your password";
+    public static final String APP_URL = "bs://{your_url}";
     public static final String HUB_URL = "http://hub.browserstack.com/wd/hub";
 
     @BeforeClass
