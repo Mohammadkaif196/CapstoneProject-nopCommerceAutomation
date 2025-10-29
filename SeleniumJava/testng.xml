@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SequentialCrossBrowserSuite" parallel="none">
+
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="TestCases.addAddressTest"/>
+        </classes>
+    </test>
+
+    <test name="FirefoxTest">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="TestCases.addAddressTest"/>
+        </classes>
+    </test>
+
+</suite>
