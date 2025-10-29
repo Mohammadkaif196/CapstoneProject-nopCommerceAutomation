@@ -30,8 +30,7 @@ This repository contains a **production-ready test automation suite** designed f
 
 ### Application Under Test
 
-![nopCommerce Homepage](<img width="1919" height="994" alt="Screenshot 2025-10-29 105921" src="https://github.com/user-attachments/assets/62282f63-39ce-4d74-99ed-3d2bb21f0520" />
-)
+![nopCommerce Homepage](https://github.com/yourusername/CapstoneProject-nopCommerce/assets/XXXXXXXX/Screenshot%202025-10-29%20105921.png)
 
 The nopCommerce demo store features a full-featured e-commerce platform with product categories including Computers, Electronics, Apparel, Digital Downloads, Books, Jewelry, and Gift Cards. Our automation suite thoroughly tests all major functionalities across these categories.
 
