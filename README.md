@@ -1,4 +1,4 @@
-# 🛍️ CapstoneProject-nopCommerce Test Automation Suite
+# 🛍️ nopCommerce Test Automation Suite
 
 [![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)](https://www.selenium.dev/)
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
@@ -27,6 +27,13 @@
 ## 🎯 About The Project
 
 This repository contains a **production-ready test automation suite** designed for the [nopCommerce demo store](https://demo.nopcommerce.com). The framework validates critical e-commerce workflows including user management, product operations, checkout processes, and advanced features like product comparison and jewelry rentals.
+
+### Application Under Test
+
+![nopCommerce Homepage](<img width="1919" height="994" alt="Screenshot 2025-10-29 105921" src="https://github.com/user-attachments/assets/62282f63-39ce-4d74-99ed-3d2bb21f0520" />
+)
+
+The nopCommerce demo store features a full-featured e-commerce platform with product categories including Computers, Electronics, Apparel, Digital Downloads, Books, Jewelry, and Gift Cards. Our automation suite thoroughly tests all major functionalities across these categories.
 
 ### Why This Project?
 
@@ -354,7 +361,9 @@ allure serve allure-results/
 
 ### Sample Report View
 
-![Allure Dashboard](https://docs.qameta.io/allure/images/overview.png)
+![Allure Report Overview](https://github.com/yourusername/CapstoneProject-nopCommerce/assets/allure-report-sample.png)
+
+*Example of Allure Report showing 100% test pass rate with detailed test execution metrics*
 
 ---
 
@@ -408,7 +417,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**⭐ I hope you find this project helpful**
+**⭐ If you find this project helpful, please consider giving it a star!**
 
 Made with ❤️ by GROUP 3
 
