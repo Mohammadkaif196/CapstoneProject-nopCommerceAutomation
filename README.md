@@ -4,8 +4,11 @@
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![TestNG](https://img.shields.io/badge/TestNG-FF6C37?style=for-the-badge&logo=testing-library&logoColor=white)](https://testng.org/)
+[![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)](https://www.atlassian.com/software/jira)
+[![BrowserStack](https://img.shields.io/badge/BrowserStack-FF8800?style=for-the-badge&logo=browserstack&logoColor=white)](https://www.browserstack.com/)
 
-> A comprehensive end-to-end test automation framework for nopCommerce e-commerce platform, featuring parallel test execution, data-driven testing, and detailed reporting capabilities.
+> A comprehensive end-to-end test automation framework for the **nopCommerce e-commerce platform**, integrated with **Jira + Xray** for Agile test management and **BrowserStack** for cross-platform cloud testing.  
+> Supports parallel execution, data-driven testing, and detailed Allure reporting.
 
 ---
 
@@ -14,33 +17,39 @@
 - [About The Project](#about-the-project)
 - [Key Features](#key-features)
 - [Technology Stack](#technology-stack)
-- [Test Scenarios](#test-scenarios)
+- [Jira Project & Test Management](#jira-project--test-management)
+- [Cloud & Mobile Testing](#cloud--mobile-testing)
+- [Test Scenarios](#test-scenarios-overview-total-9)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
 - [Running Tests](#running-tests)
 - [Test Reports](#test-reports)
+- [Project Outcome](#project-outcome)
 - [Contributing](#contributing)
 - [Team](#team)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
 ---
 
 ## 🎯 About The Project
 
-This repository contains a **production-ready test automation suite** designed for the [nopCommerce demo store](https://demo.nopcommerce.com). The framework validates critical e-commerce workflows including user management, product operations, checkout processes, and advanced features like product comparison and jewelry rentals.
+This project represents a **comprehensive end-to-end automation framework** developed to ensure the reliability, scalability, and efficiency of the **nopCommerce e-commerce website** and the **Wikipedia mobile application**.  
+The framework automates major user workflows using **Selenium WebDriver** with **Java** and **Python**, while enabling advanced test management through **Jira + Xray** and real-device execution via **BrowserStack**.
+
 
 ### Application Under Test
 
 ![nopCommerce Homepage](https://raw.githubusercontent.com/Mohammadkaif196/CapstoneProject-nopCommerceAutomation/main/Screenshot%202025-10-29%20105921.png)
 
-
-The nopCommerce demo store features a full-featured e-commerce platform with product categories including Computers, Electronics, Apparel, Digital Downloads, Books, Jewelry, and Gift Cards. Our automation suite thoroughly tests all major functionalities across these categories.
-
 ### Why This Project?
 
-- ✅ **Comprehensive Coverage**: Tests span across user authentication, product management, and transaction workflows
-- ✅ **Dual-Language Support**: Leverages both Java and Python for maximum flexibility
-- ✅ **Enterprise-Ready**: Built with industry best practices including POM, data-driven testing, and CI/CD compatibility
-- ✅ **Detailed Reporting**: Integrated with Allure for actionable test insights
+- ✅ **Comprehensive Coverage**: Covers registration to checkout  
+- ✅ **Cross-Language Support**: Uses Java (TestNG) and Python (PyTest)  
+- ✅ **Enterprise-Ready**: POM, data-driven design, Maven & pip  
+- ✅ **Cloud & Mobile Testing**: Integrated BrowserStack & Appium  
+- ✅ **Agile Test Management**: Jira + Xray dashboards  
+- ✅ **Detailed Reporting**: Allure + Log4j insights  
 
 ---
 
@@ -48,12 +57,13 @@ The nopCommerce demo store features a full-featured e-commerce platform with pro
 
 | Feature | Description |
 |---------|-------------|
-| 🔄 **Cross-Browser Testing** | Supports Chrome and Firefox with easy extension to other browsers |
-| 📊 **Data-Driven Testing** | Excel-based test data management for scalable test execution |
-| 📝 **Comprehensive Reporting** | Allure Reports with screenshots, execution timelines, and failure analysis |
-| 🏗️ **Page Object Model** | Maintainable and scalable test architecture |
-| 🔀 **Parallel Execution** | Reduced test execution time through concurrent test runs |
-| 🎯 **End-to-End Workflows** | Real-world user journey validation from registration to checkout |
+| 🔄 **Cross-Browser Testing** | Supports Chrome and Firefox with easy extensibility |
+| ☁️ **Cloud Testing** | Runs tests on BrowserStack cloud for real devices |
+| 📊 **Data-Driven Testing** | Excel-based test data for dynamic validation |
+| 📝 **Comprehensive Reporting** | Allure Reports with screenshots & execution timelines |
+| 🏗️ **Page Object Model (POM)** | Scalable and maintainable test architecture |
+| 🔀 **Parallel Execution** | Multi-threaded testing using TestNG & pytest-xdist |
+| 🧠 **Agile Terminology** | Screenshots of Jira + Xray for particular scenarios |
 
 ---
 
@@ -61,138 +71,137 @@ The nopCommerce demo store features a full-featured e-commerce platform with pro
 
 ### Core Technologies
 ```
-Java 11+                    Python 3.8+
-├── Selenium WebDriver      ├── Selenium WebDriver
-├── TestNG                  ├── PyTest
-├── Maven                   ├── pip
-└── Apache POI              └── openpyxl
+Java 17+                                              |          Python 3.8+
+├── Selenium WebDriver                                |          ├── Selenium WebDriver
+├── TestNG                                            |          ├── PyTest
+├── Maven                                             |          ├── pip
+└── Apache POI                                        |          └── openpyxl
+
 ```
 
-### Development Tools
-- **IDEs**: Eclipse, IntelliJ IDEA, PyCharm, VS Code
-- **Build Tools**: Maven (Java), pip (Python)
-- **Reporting**: Allure Framework
-- **Version Control**: Git
+
+
+### Tools & Frameworks
+- **IDEs:** Eclipse, IntelliJ IDEA, PyCharm, VS Code  
+- **Reporting:** Allure Framework, Log4j  
+- **Cloud Testing:** BrowserStack  
+- **Mobile Automation:** Appium  
+- **Test Management:** Jira + Xray  
+- **Version Control:** Git & GitHub  
 
 ---
 
-## 🧪 Test Scenarios
+## 📈 Jira Project & Test Management
+
+The **EcommApp Jira Project** was structured with Agile SCRUM, featuring 3 key epics:
+1. 🧩 **User Management & Authentication**  
+2. 🛒 **Product Catalog**  
+3. 💳 **Cart, Checkout, and Payments**
+
+**Highlights:**
+- Sprint: **25 Sep – 8 Oct (Sprint 1)**  
+- Tasks managed via **Backlog**, **Active Sprint**, and **Dashboard**  
+- Issues: EC-84 (Password Reset), EC-85 (Payment Issue), EC-8 (New Bug)  
+- **Xray Integration:** Linked manual & automated test cases, validated JWT storage  
+
+---
+
+## ☁️ Cloud & Mobile Testing
+
+### Web Testing (BrowserStack - Safari)
+- Device: **iPhone 12 Pro (iOS 14)**  
+- Scenario: JavaScript prompt alert verification  
+- Tools: Selenium Java + TestNG + RemoteWebDriver  
+
+### Mobile Testing (BrowserStack - Android)
+- App: **Wikipedia Android Application**  
+- Framework: Appium + TestNG  
+- Features Tested:
+  - Search functionality  
+  - Text verification  
+  - Screenshot capture on failure  
+  - Remote session management  
+
+---
+## 🧪 Test Scenarios Overview (Total 9)
 
 ### Java-Based Scenarios
 
-#### 1️⃣ User Registration & Session Management
-**Validates**: New user onboarding and secure logout functionality
-```
-Registration Flow → Email Verification → Dashboard Redirect → Logout
-```
-
-**Test Coverage:**
-- Form validation with valid/invalid inputs
-- Success message verification
-- Post-registration page navigation
-- Session cleanup on logout
+#### 1️⃣ User Registration & Logout
+**Flow:** Register → Redirect → Logout  
+**Validations:** Registration success, redirection, session termination.  
+🎥 **Execution Video:** [Watch Here](https://drive.google.com/file/d/1QilJz1vVejfrxxjBr7CHJMOmneclj5bO/view?usp=drivesdk)
 
 ---
 
 #### 2️⃣ Data-Driven Login Validation
-**Validates**: Authentication mechanism with multiple credential sets
-
-**Features:**
-- Excel-based test data management
-- Positive and negative test scenarios
-- Error message validation
-- Dashboard accessibility checks
-
-**Test Matrix:**
-| Credential Type | Expected Outcome |
-|----------------|------------------|
-| Valid credentials | Successful login |
-| Invalid email | Error message displayed |
-| Invalid password | Authentication failure |
-| Empty fields | Validation warnings |
+**Flow:** Login with multiple credentials from Excel.  
+**Validations:** Positive/Negative login, error message handling.  
+🎥 **Execution Video:** [Watch Here](https://drive.google.com/file/d/19phq7DvFLFVgdizN3HCqaO_tI2n7N5Io/view?usp=sharing)
 
 ---
 
 #### 3️⃣ Address Management
-**Validates**: User profile address CRUD operations
-
-**Workflow:**
-```
-Login → My Account → Addresses → Add New → Form Submission → Verification
-```
-
-**Validations:**
-- Mandatory field enforcement
-- Data persistence
-- Multiple address handling
-- Edit/Delete functionality
+**Flow:** Login → My Account → Add Address → Verify  
+**Validations:** CRUD operations on address section.  
+🎥 **Execution Video:** [Watch Here](https://drive.google.com/file/d/1Bv9r0FlYzb0O5s3TmCvYG22y3ia-5twb/view?usp=drivesdk)
 
 ---
 
-#### 4️⃣ Complete Purchase Workflow
-**Validates**: End-to-end e-commerce transaction
-
-**Journey Map:**
-```
-Product Search → Add to Cart → Cart Review → Checkout → Payment → Order Confirmation
-```
-
-**Coverage Areas:**
-- Product search and filtering
-- Cart operations (add/remove/update)
-- Billing and shipping information
-- Payment method selection
-- Order summary validation
-- Confirmation email trigger
+#### 4️⃣ Complete Checkout Flow
+**Flow:** Search → Add to Cart → Checkout → Payment → Confirmation  
+**Validations:** Order success message, billing info, terms agreement.
+🎥 **Execution Video:** [Watch Here](https://drive.google.com/file/d/1HcyC_8DaNLJ5H_kRbK4Zs-NPgKoQD2bL/view?usp=sharing)
 
 ---
 
 ### Python-Based Scenarios
 
-#### 5️⃣ Product Comparison Engine
-**Validates**: Multi-product comparison functionality
-
-**Process Flow:**
-```
-Category Selection → Product Addition → Comparison View → Specification Analysis
-```
-
-**Test Points:**
-- Comparison list management
-- Side-by-side specification display
-- Feature highlighting
-- Price comparison accuracy
+#### 5️⃣ Product Comparison
+**Flow:** Select two laptops → Add to compare → View Comparison  
+**Validations:** Comparison table content and price accuracy.  
+🎥 **Execution Video:** [Watch Here](https://drive.google.com/file/d/1EjNc_1jDjFxMkv2mF0O-eYPwKJ1l1XQm/view?usp=sharing)
 
 ---
 
 #### 6️⃣ Jewelry Rental Workflow
-**Validates**: Specialized rental product handling
+**Flow:** Login → Jewelry → Rent Item → Checkout  
+**Validations:** Date picker, rental price, confirmation message.  
+🎥 **Execution Video:** [Watch Here](https://drive.google.com/file/d/1eWooD2ZtkxlyJ6MvMUQGYTTs7ohAkrjP/view?usp=sharing)
 
-**Rental Journey:**
-```
-Login → Category Browse → Product Selection → Date Range Selection → 
-Cart Addition → Checkout → Rental Confirmation
-```
+---
 
-**Unique Validations:**
-- Date picker functionality
-- Rental period calculation
-- Availability verification
-- Terms and conditions acceptance
-- Rental-specific checkout flow
+#### 7️⃣ Wishlist & Voting
+**Flow:** Add product to wishlist → Vote website → Verify Wishlist  
+**Validations:** Success messages, UI verification.  
+🎥 **Execution Video:** [Watch Here](https://drive.google.com/file/d/1gsSAG2dNpzwTWwVfgZ_EmSbzxA2mb_bQ/view?usp=sharing)
+
+---
+
+### BrowserStack Scenarios
+
+#### 8️⃣ JavaScript Alerts (Safari on iPhone)
+**Flow:** Open Heroku JS alert page → Click prompt → Send text → Verify message.  
+**Tools:** Selenium Java + TestNG + BrowserStack Cloud.  
+🎥 **Execution Video:** [Watch Here](https://drive.google.com/file/d/1H4sKO__kugRrXfm7D97_cepB1jdk0eO8/view?usp=sharing)
+
+---
+
+#### 9️⃣ Wikipedia Mobile Automation
+**Flow:** Launch app → Verify text → Verify Search input → Search term → Validate results  
+**Tools:** Appium + TestNG + BrowserStack Android.  
+🎥 **Execution Video:** [Watch Here](https://drive.google.com/file/d/1Yw0XQtO0TM0rh3vU0gnbDuXZhwdx0KXA/view?usp=sharing)
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-
-**For Java Tests:**
+**Java:**
 ```bash
-Java JDK 11 or higher
+Java 17+
 Maven 3.6+
-Chrome/Firefox browser
-ChromeDriver/GeckoDriver
+Chrome/Firefox
 ```
 
 **For Python Tests:**
@@ -222,52 +231,69 @@ cd PythonTest
 pip install -r requirements.txt
 ```
 
-4. **Configure test properties**
-```properties
-# config.properties
-base.url=https://demo.nopcommerce.com
-browser=chrome
-implicit.wait=10
-explicit.wait=20
-```
-
 ---
 
 ## 📁 Project Structure
 ```
 CapstoneProject-nopCommerce/
 │
-├── SeleniumJava/                    # Java-based automation project
-│   ├── pom.xml                      # Maven configuration
-│   ├── .gitignore                   # Java-specific ignores
-│   ├── testng.xml                   # TestNG suite configuration
-│   ├── src/
-│   │   ├── main/java/
-│   │   │   ├── pages/               # Page Object Models
-│   │   │   ├── utilities/           # Helper utilities
-│   │   │   └── base/                # Base test classes
-│   │   └── test/java/
-│   │       └── Testcases/
-│   │           ├── LoginTest.java
-│   │           ├── RegisterTest.java
-│   │           ├── SearchTest.java
-│   │           └── LogoutTest.java
-│   ├── target/
-│   │   ├── allure-results/          # Allure raw results
-│   │   └── allure-report/           # Generated HTML reports
-│   └── README.md                    # Java project documentation
+├── SeleniumJava/                              # Java-based automation project
+│ ├── pom.xml                                   # Maven configuration
+│ ├── .gitignore                                # Java-specific ignores
+│ ├── testng.xml                                # TestNG suite configuration
+│ ├── src/
+│ │   └── test/java/
+│ │       ├── MobileAutomation/                 # Mobile automation test scripts
+│ │       │   ├── WikipediaAppTests.java
+│ │       │   └── browserstackTest.java
+│ │
+│ │       ├── PageObjects/                      # Page Object Model classes
+│ │       │   ├── BasePage.java
+│ │       │   ├── CheckoutPage.java
+│ │       │   ├── HomePage.java
+│ │       │   ├── LoginPage.java
+│ │       │   ├── LogoutPage.java
+│ │       │   └── RegisterPage.java
+│ │
+│ │       ├── TestCases/                        # All test case classes
+│ │       │   ├── BaseTest.java
+│ │       │   ├── LoginPageTest.java
+│ │       │   ├── RegisterLogoutTest.java
+│ │       │   ├── addAddressTest.java
+│ │       │   └── purchaseTest.java
+│ │
+│ │       └── utils/                            # Utility/helper classes
+│ │           └── ExcelUtils.java
+│ │
+│ ├── screenshot/                               # Captured test screenshots
+│ │   └── (saved screenshots during BrowserStack test runs)
+│ │
+│ ├── AllureReportScreenShot/                   # Screenshots attached in Allure reports
+│ │   └── (Allure screenshots for failed/passed tests)
+│ │
+│ ├── target/
+│ │   ├── allure-results/                       # Allure raw results
+│ │   └── allure-report/                        # Generated HTML reports
+│ │
+│ └── README.md                                 # Java project documentation
 │
-├── PythonTest/                      # Python-based automation project
-│   ├── tests/
-│   │   ├── test_login.py
-│   │   ├── test_register.py
-│   │   ├── test_search.py
-│   │   └── test_logout.py
-│   ├── requirements.txt             # Python dependencies
-│   └── README.md                    # Python project documentation
+├── PythonTest/                                 # Python-based automation project
+│ ├── tests/
+│ │   ├── test_login.py
+│ │   ├── test_register.py
+│ │   ├── test_search.py
+│ │   └── test_logout.py
+│ │
+│ ├── AllureReportsScreenShot/                  # Screenshots for Allure reports (Python)
+│ │   └── (Allure screenshots for test results)
+│ │
+│ ├── requirements.txt                          # Python dependencies
+│ └── README.md                                 # Python project documentation
 │
-├── README.md                        # Main project documentation
-└── .gitignore                       # Global repository ignores
+├── README.md                                   # Main project documentation
+└── .gitignore                                  # Global repository ignores
+
+
 ```
 
 ---
@@ -323,7 +349,7 @@ pytest tests/ --html=reports/report.html
 **Java (TestNG):**
 ```xml
 <suite name="Parallel Suite" parallel="methods" thread-count="4">
-    <!-- Test definitions -->
+<!-- Test definitions -->
 </suite>
 ```
 
@@ -366,44 +392,18 @@ allure serve allure-results/
 *Example of Allure Report showing 100% test pass rate with detailed test execution metrics*
 
 ---
-
-## 🤝 Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Coding Standards
-- Follow PEP 8 for Python code
-- Follow Java naming conventions
-- Add comments for complex logic
-- Update documentation for new features
-- Ensure all tests pass before submitting PR
-
----
-
 ## 👥 Team
 
 **GROUP 3 - Test Automation Engineers**
 
 | Name | GitHub |
 |------|--------|
-| Anuvrat Verma | [@anuvratverma](https://github.com/anuvratverma) |
-| Mohammad Kaif Shaikh | [@mohammadkaif](https://github.com/Mohammadkaif196) |
-| Lavanya Donga | [@lavanyadonga](https://github.com/lavanyadonga) |
-| Suchismita Dutta | [@suchismitadutta](https://github.com/suchismitadutta) |
-| Likhitha Yada | [@likhithayada](https://github.com/likhithayada) |
-| Sai Lakshmi Anupama Gopavarapu | [@sailakshmianupama](https://github.com/sailakshmianupama) |
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+| Anuvrat Verma | [@anuvratverma](https://github.com/Anuvrat-Verma) |
+| Mohammad Kaif Shaik | [@mohammadkaif](https://github.com/Mohammadkaif196) |
+| Lavanya Donga | [@lavanyadonga](https://github.com/lavanyasatya08) |
+| Suchismita Dutta | [@suchismitadutta](https://github.com/crack-head22) |
+| Likhitha Yada | [@likhithayada](https://github.com/likhitha-yada) |
+| Sai Lakshmi Anupama Gopavarapu | [@sailakshmianupama](https://github.com/GopavarapuAnupama) |
 
 ---
 
