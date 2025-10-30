@@ -12,23 +12,22 @@
 
 ---
 
+
 ## 📋 Table of Contents
 
-- [About The Project](#about-the-project)
-- [Key Features](#key-features)
-- [Technology Stack](#technology-stack)
-- [Jira Project & Test Management](#jira-project--test-management)
-- [Cloud & Mobile Testing](#cloud--mobile-testing)
-- [Test Scenarios](#test-scenarios-overview-total-9)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Running Tests](#running-tests)
-- [Test Reports](#test-reports)
-- [Project Outcome](#project-outcome)
-- [Contributing](#contributing)
-- [Team](#team)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+- [About The Project](#-about-the-project)
+- [Key Features](#-key-features)
+- [Technology Stack](#-technology-stack)
+- [Jira Project & Test Management](#-jira-project--test-management)
+- [Cloud & Mobile Testing](#-cloud--mobile-testing)
+- [Test Scenarios Overview (Total 9)](#-test-scenarios-overview-total-9)
+- [Getting Started](#-getting-started)
+- [Project Structure](#-project-structure)
+- [Running Tests](#-running-tests)
+- [Test Reports](#-test-reports)
+- [Team](#-team)
+- [Acknowledgments](#-acknowledgments)
+
 
 ---
 
