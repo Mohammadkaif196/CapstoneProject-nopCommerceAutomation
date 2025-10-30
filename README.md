@@ -93,16 +93,13 @@ Java 17+                                              |          Python 3.8+
 
 ## 📈 Jira Project & Test Management
 
-The **EcommApp Jira Project** was structured with Agile SCRUM, featuring 3 key epics:
-1. 🧩 **User Management & Authentication**  
-2. 🛒 **Product Catalog**  
-3. 💳 **Cart, Checkout, and Payments**
+The **EcommApp Jira Project** was managed using the **Agile SCRUM** framework with three main epics — *User Management*, *Product Catalog*, and *Cart & Checkout*.  
+Sprint 1 (25 Sep – 8 Oct) was tracked through **Backlog**, **Active Sprint**, and **Dashboard** views for better visibility.  
 
-**Highlights:**
-- Sprint: **25 Sep – 8 Oct (Sprint 1)**  
-- Tasks managed via **Backlog**, **Active Sprint**, and **Dashboard**  
-- Issues: EC-84 (Password Reset), EC-85 (Payment Issue), EC-8 (New Bug)  
-- **Xray Integration:** Linked manual & automated test cases, validated JWT storage  
+The **Dashboard** highlighted key bugs like **EC-8**, **EC-84**, and **EC-85**, along with sprint progress and QA metrics.  
+Using the **Xray plugin**, both manual and automated test cases were tracked, including a key test validating **secure JWT storage**, which passed successfully.  
+This setup ensured complete traceability and improved collaboration across the team.
+
 
 ---
 
