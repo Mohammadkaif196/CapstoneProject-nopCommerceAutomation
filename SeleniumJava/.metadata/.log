@@ -1,0 +1,26 @@
+!SESSION 2025-10-29 00:15:45.961 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=23
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/shaikmohammadkaif/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/shaikmohammadkaif/.eclipse_keyring -data /Users/shaikmohammadkaif/Desktop/CapstoneProject-nopCommerceAutomation/SeleniumJava
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-29 00:15:47.200
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-29 00:15:48.081
+!MESSAGE Logback config file: /Users/shaikmohammadkaif/Desktop/CapstoneProject-nopCommerceAutomation/SeleniumJava/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+!SESSION 2025-10-29 00:16:53.388 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=23
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/shaikmohammadkaif/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/shaikmohammadkaif/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-29 00:16:54.430
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-29 00:16:55.307
+!MESSAGE Logback config file: /Users/shaikmohammadkaif/Desktop/CapstoneProject-nopCommerceAutomation/SeleniumJava/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
