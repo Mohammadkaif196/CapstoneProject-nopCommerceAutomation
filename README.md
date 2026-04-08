@@ -1,6 +1,6 @@
 ## 👥 Team
 
-**GROUP 3 - Test Automation Engineers**
+**Test Automation Engineers**
 
 | Name | GitHub |
 |------|--------|
