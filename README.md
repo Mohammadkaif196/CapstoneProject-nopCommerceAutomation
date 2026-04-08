@@ -1,3 +1,17 @@
+## 👥 Team
+
+**GROUP 3 - Test Automation Engineers**
+
+| Name | GitHub |
+|------|--------|
+| Anuvrat Verma | [@anuvratverma](https://github.com/Anuvrat-Verma) |
+| Mohammad Kaif Shaik | [@mohammadkaif](https://github.com/Mohammadkaif196) |
+| Lavanya Donga | [@lavanyadonga](https://github.com/lavanyasatya08) |
+| Suchismita Dutta | [@suchismitadutta](https://github.com/crack-head22) |
+| Likhitha Yada | [@likhithayada](https://github.com/likhitha-yada) |
+| Sai Lakshmi Anupama Gopavarapu | [@sailakshmianupama](https://github.com/GopavarapuAnupama) |
+
+---
 # 🛍️ nopCommerce Test Automation Suite
 
 [![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)](https://www.selenium.dev/)
@@ -386,20 +400,6 @@ allure serve allure-results/
 ![Allure Report Overview](https://github.com/yourusername/CapstoneProject-nopCommerce/assets/allure-report-sample.png)
 
 *Example of Allure Report showing 100% test pass rate with detailed test execution metrics*
-
----
-## 👥 Team
-
-**GROUP 3 - Test Automation Engineers**
-
-| Name | GitHub |
-|------|--------|
-| Anuvrat Verma | [@anuvratverma](https://github.com/Anuvrat-Verma) |
-| Mohammad Kaif Shaik | [@mohammadkaif](https://github.com/Mohammadkaif196) |
-| Lavanya Donga | [@lavanyadonga](https://github.com/lavanyasatya08) |
-| Suchismita Dutta | [@suchismitadutta](https://github.com/crack-head22) |
-| Likhitha Yada | [@likhithayada](https://github.com/likhitha-yada) |
-| Sai Lakshmi Anupama Gopavarapu | [@sailakshmianupama](https://github.com/GopavarapuAnupama) |
 
 ---
 
